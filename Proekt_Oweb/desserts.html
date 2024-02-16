@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Galery</title>
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./img/logo.jpeg" alt="Slika" />
+          <h2 id="title">Healthy bistro</h2>
+        </div>
+        <div class="navbar-wrapper">
+          <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="breakfast.html">Breakfast</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+
+            <li><a href="impressions.html">Impressions</a></li>
+            <li>
+              <div class="addtocart">
+                <span class="addtocartvalue">(0)</span>
+                <img src="./img/addToCart.jpeg" alt="addToCart" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <p>
+          <label for="amount">Price range:</label>
+          <input
+            type="text"
+            id="amount"
+            readonly
+            style="border: 0; color: #f6931f; font-weight: bold"
+          />
+        </p>
+        <div id="slider-range"></div>
+      </div>
+      <div class="container">
+        <div class="flex-card-wrap">
+          <div class="card">
+            <div class="item text-center">
+              <p>
+                <img
+                  src="./img/strawberry-frozen-yoghurt.jpeg"
+                  alt="smoothie"
+                />
+              </p>
+              <p></p>
+              <p>Strawberry frozen yoghurt</p>
+              <div class="addToCart">
+                <img src="./img/addToCart.jpeg" alt="addToCart" />
+              </div>
+
+              <div class="favourites">
+                <img src="./img/heart.png" alt="heart" />
+              </div>
+              <div class="price">
+                <p><span class="value">78</span> <span>&dollar;</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="item text-center">
+              <p>
+                <img
+                  src="./img/lemon-panna-cotta-with-vodka-blueberry-syrup.jpeg"
+                  alt="slika1"
+                />
+              </p>
+              <p>Lemon panna cotta</p>
+              <div class="addToCart">
+                <img src="./img/addToCart.jpeg" alt="addToCart" />
+              </div>
+
+              <div class="favourites">
+                <img src="./img/heart.png" alt="heart" />
+              </div>
+              <div class="price">
+                <p><span class="value">97</span> <span>&dollar;</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="item text-center">
+              <p>
+                <img src="./img/cheesecake.jpg" alt="slika1" />
+              </p>
+
+              <p>Cheesecake</p>
+              <div class="addToCart">
+                <img src="./img/addToCart.jpeg" alt="addToCart" />
+              </div>
+
+              <div class="favourites">
+                <img src="./img/heart.png" alt="heart" />
+              </div>
+              <div class="price">
+                <p><span class="value">66</span> <span>&dollar;</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="item text-center">
+              <p>
+                <img
+                  src="./img/banoffee-coconut-chia-puddings.jpeg"
+                  alt="slika1"
+                />
+              </p>
+              <p>Banoffee coconut chia puddings</p>
+              <div class="addToCart">
+                <img src="./img/addToCart.jpeg" alt="addToCart" />
+              </div>
+
+              <div class="favourites">
+                <img src="./img/heart.png" alt="heart" />
+              </div>
+              <div class="price">
+                <p><span class="value">44</span> <span>&dollar;</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="item text-center">
+              <p>
+                <img
+                  src="./img/dairy-free-chocolate-avocado-mousse-tart.jpeg"
+                  alt="slika1"
+                />
+              </p>
+              <p>Dairy-free chocolate mousse tart</p>
+              <div class="addToCart">
+                <img src="./img/addToCart.jpeg" alt="addToCart" />
+              </div>
+
+              <div class="favourites">
+                <img src="./img/heart.png" alt="heart" />
+              </div>
+              <div class="price">
+                <p><span class="value">23</span> <span>&dollar;</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="item text-center">
+              <p>
+                <img src="./img/Healthy-Carrotcake-Muffins.jpeg" alt="slika1" />
+              </p>
+              <p>Carrotcake muffins</p>
+              <div class="addToCart">
+                <img src="./img/addToCart.jpeg" alt="addToCart" />
+              </div>
+
+              <div class="favourites">
+                <img src="./img/heart.png" alt="heart" />
+              </div>
+              <div class="price">
+                <p><span class="value">35</span> <span>&dollar;</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>CopyRight &copy 2024, Healthy Bistro</p>
+    </footer>
+  </body>
+</html>

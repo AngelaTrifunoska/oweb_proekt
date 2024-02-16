@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <title>Impressions</title>
+  </head>
+  <body id="impressions">
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./img/logo.jpeg" alt="Slika" />
+          <h2 id="title">Healthy bistro</h2>
+        </div>
+        <div class="navbar-wrapper">
+          <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="breakfast.html">Breakfast</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+
+            <li><a href="impressions.html">Impressions</a></li>
+            <li>
+              <div class="addtocart">
+                <span class="addtocartvalue">(0)</span>
+                <img src="./img/addToCart.jpeg" alt="addToCart" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="form-style-10">
+      <h1>
+        We'd love your feedback<span
+          >Sign up and tell us what you think of the site!</span
+        >
+      </h1>
+      <form>
+        <div class="section"><span>1</span>First Name & Last Name</div>
+        <div class="inner-wrap">
+          <label> First Name <input type="text" name="firstname" /></label>
+          <label>Last name <input type="text" name="lastname" /></label>
+        </div>
+
+        <div class="section"><span>2</span>Email & Phone</div>
+        <div class="inner-wrap">
+          <label>Email Address <input type="email" name="email" /></label>
+          <label>Phone Number <input type="text" name="phoneNumber" /></label>
+        </div>
+
+        <div class="section"><span>3</span>Passwords</div>
+        <div class="inner-wrap">
+          <label>Password <input type="password" name="password" /></label>
+          <label
+            >Confirm Password <input type="password" name="passwordConfirm"
+          /></label>
+        </div>
+
+        <div class="section"><span>4</span> Please share your feedback</div>
+        <div class="inner-wrap">
+          <label>Enter your feedback </label>
+          <textarea name="feedback"> </textarea>
+        </div>
+
+        <div class="button-section">
+          <input type="submit" name="Sign Up" />
+          <span class="privacy-policy">
+            <input type="checkbox" name="field7" />You agree to our Terms and
+            Policy.
+          </span>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <p>CopyRight &copy 2024, Healthy Bistro</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
